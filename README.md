@@ -17,4 +17,4 @@ Quarter notes are given a value of 4, half notes are 2, and so on. Dotted notes 
 ![Clef Diagram](images/clef.png)
 [Source: Wikipedia](https://en.wikipedia.org/wiki/Clef)
 
-You'll likely find that adding more than four or five melodies to a single sketch will cause an Uno or Nano to crash and reboot. This is because of the limited available RAM. You could modify sketches to store melody arrays in `PROGMEM` or look at using boards with more RAM like the [Nano Every](https://store.arduino.cc/usa/nano-every) or [Teensy](https://www.pjrc.com/teensy/).
+You may find that adding more than four or five melodies to a single sketch will cause an Uno or Nano to crash and reboot. This is because of the limited available RAM. You could modify sketches to store melody arrays in `PROGMEM` or look at using boards with more RAM like the [Nano Every](https://store.arduino.cc/usa/nano-every) or [Teensy](https://www.pjrc.com/teensy/). I included a `progmem_example` to show how it can be done. This sketch plays 12 songs and only uses 28 bytes (1%) of dynamic memory on a Nano.
